@@ -24,7 +24,22 @@ export default class Container extends React.Component {
     render() {
         return (
             <div>
-                <input type="text" value={ this.state.value } onChange={ this.onSearchChange.bind(this) } placeholder="Find a Game" />
+                <input
+                    style={{
+                        width: "calc(100% - 19px)",
+                        height: "40px",
+                        fontSize: "14pt",
+                        padding: "4px",
+                        paddingLeft: "10px",
+                        color: "#00f",
+                        border: "1px solid #00f",
+                        borderRadius: "3px"
+                    }}
+                    type="text"
+                    value={ this.state.value }
+                    onChange={ this.onSearchChange.bind(this) }
+                    placeholder="Find a Game"
+                />
                 <hr />
                 <ResultGrid />
             </div>

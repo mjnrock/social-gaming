@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import MTSLib from "@lespantsfancy/message-transfer-system";
+// import MTSLib from "@lespantsfancy/message-transfer-system";
 
 import App from "./App";
 
